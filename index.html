@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="display-container">
+            <h1 id="display">War Game</h1>
+            <button id="deck-btn">New Deck</button>
+            <h2 id="cards-left">Cards Remaining:</h2>
+            <button id="draw-btn" class="hide-btn">Draw</button>
+            <h1 id="display-winner"></h1>
+            <h2 id="war-winner"></h2>
+        </div>
+    
+        <div class="card-container">
+            <p>CPU Score: <span id="cpu-score-display">0</span></p>
+            
+            <div id="cards">
+                <div class="card-slot"></div>
+                <div class="card-slot"></div> 
+            </div>
+
+            <p>Your Score: <span id="user-score-display">0</span></p>
+        </div>
+
+        <div id="war-container"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
