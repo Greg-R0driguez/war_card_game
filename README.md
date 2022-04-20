@@ -1,6 +1,6 @@
 # Basic War Game
 
-👉  https://greg-r0driguez.github.io/war_card_game/  👈   
+👉  https://GregRodriguezJr.github.io/war_card_game/  👈   
 
 
 Game Rules   
